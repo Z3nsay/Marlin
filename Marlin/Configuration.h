@@ -904,7 +904,7 @@
 #elif WITH_TITAN && !WITH_TMC
   #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 420 }
 #else
-  #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 }
+  #define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 93 }
 #endif
 
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 420 }
